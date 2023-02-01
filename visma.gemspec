@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('zeitwerk', '~> 2.4')
 
-  s.add_dependency "rails", "~> 6.0"
-  s.add_dependency 'activerecord-sqlserver-adapter', '~> 6.1'
+  s.add_dependency "rails", "~> 7.0"
+  s.add_dependency 'activerecord-sqlserver-adapter', '~> 7.0.0.0'
 end
